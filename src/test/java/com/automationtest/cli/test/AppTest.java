@@ -28,7 +28,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAppHasAGreeting() {
+    public void testNoArgs() {
         App.main(new String[0]);
         assertTrue("No arugment, it should show help", consoleText.toString().contains("usage:"));
     }
